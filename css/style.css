@@ -1,0 +1,22 @@
+html{font-family: ubuntu,arial; font-size: 100.01%;}
+body{font-size: 75%;background: #333; color: #eee;}
+h1{font-style: italic;}
+
+a{text-decoration: none;color: #eee;}
+a:hover{color: #538001;}
+
+table {width: 800px; margin-top: 20px;margin-bottom: 10px;border-spacing: 0px;font-size:100%;box-shadow:0 0 20px #ddd;}
+table th,td {padding: 0.5em;text-align: left;}
+table thead th {color: #000;border-bottom: 2px #ddd solid;background: #538001;border-top: 2px solid #ddd;}
+table thead td {border-bottom: 1px #ddd solid;}
+table tbody th {border-bottom: 1px solid #ddd;background: #777;text-align: left;}
+table tbody td {border-bottom: 1px solid #ddd;-moz-user-select:none;}
+table tbody tr td:first-child,table tbody tr th:first-child,table thead tr td:first-child {border-left: 2px solid #ddd;}
+table tbody tr td:last-child,table tbody tr th:last-child,table thead tr td:last-child {border-right: 2px solid #ddd;}
+table tbody tr:last-child td {border-bottom: 2px solid #ddd;}
+table tbody tr:last-child td:first-child {border-bottom-left-radius: 5px}
+table tbody tr:last-child td:last-child {border-bottom-right-radius: 5px}
+table thead tr:first-child th:first-child {border-top-left-radius: 5px;border-left: 2px solid #ddd;}
+table thead tr:first-child th:last-child {border-top-right-radius: 5px;border-right: 2px solid #ddd;}
+
+table tbody tr.row-selected {background-color: #b2f559; color: #222;}
